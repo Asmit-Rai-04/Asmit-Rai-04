@@ -24,9 +24,9 @@ Right now, I'm down two rabbit holes: **how codebases fit together** and **where
 
 ## 🧪 The workbench
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="420" valign="top">
 
 <h3><a href="https://github.com/Asmit-Rai-04/RepoLens">🔎 RepoLens</a></h3>
 <p><strong>Codebases, untangled.</strong></p>
@@ -35,7 +35,7 @@ Right now, I'm down two rabbit holes: **how codebases fit together** and **where
 <a href="https://github.com/Asmit-Rai-04/RepoLens"><img src="https://img.shields.io/badge/Code_%E2%86%97-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore the RepoLens repository"></a>
 
 </td>
-<td width="50%" valign="top">
+<td width="420" valign="top">
 
 <h3><a href="https://github.com/Asmit-Rai-04/modelxray">🔬 ModelXray</a></h3>
 <p><strong>Past the accuracy score.</strong></p>

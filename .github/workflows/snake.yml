@@ -53,7 +53,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=default&title_color=7c3aed&icon_color=0891b2&hide_border=true&card_width=440
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=default&title_color=7c3aed&icon_color=0891b2&hide_border=true&card_width=440&disable_animations=true
           path: dist-stats/stats.svg
           core_version: "2.2.0"
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&title_color=7c3aed&hide_border=true&card_width=360
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&title_color=7c3aed&hide_border=true&card_width=360&disable_animations=true
           path: dist-stats/languages.svg
           core_version: "2.2.0"
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -73,7 +73,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&card_width=440
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&card_width=440&disable_animations=true
           path: dist-stats/stats-dark.svg
           core_version: "2.2.0"
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -83,7 +83,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&card_width=360
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&card_width=360&disable_animations=true
           path: dist-stats/languages-dark.svg
           core_version: "2.2.0"
           token: ${{ secrets.GITHUB_TOKEN }}
