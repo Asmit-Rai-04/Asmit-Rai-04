@@ -1,53 +1,91 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-light.svg" alt="Asmit Rai — Computer Science student at SRMIST. Developer tools, backend systems, and machine learning." width="100%">
-</picture>
+<div align="center">
 
-I'm a **B.Tech Computer Science student at SRM Institute of Science and Technology**. I like being able to look inside things: how a codebase is put together, why a model gets a prediction wrong, and what makes a backend work.
+# Hey, I'm Asmit 👾
 
-Most of my recent work here is in **Python and TypeScript**. I'm learning by building tools I would want to use myself.
+**CSE @ SRMIST · Python + TypeScript · Always another rabbit hole**
 
-[Portfolio](https://asmitrai.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/asmit-rai/) · [Email](mailto:ashmitrai12@gmail.com) · [All repositories](https://github.com/Asmit-Rai-04?tab=repositories)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Codebases.+Models.+Useful+tools.;Currently+building+RepoLens+%2B+ModelXray;Learning+by+taking+things+apart." alt="Codebases. Models. Useful tools. Currently building RepoLens and ModelXray. Learning by taking things apart." width="720">
 
-## Selected work
+<p>
+<a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/asmit-rai/"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:ashmitrai12@gmail.com"><img src="https://img.shields.io/badge/Say_hello-DB2777?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Asmit"></a>
+</p>
 
-### [RepoLens](https://github.com/Asmit-Rai-04/RepoLens)
+</div>
 
-A way to get your bearings in an unfamiliar repository. Explore its architecture, follow dependencies, spot cycles, and browse the source behind the graph.
+---
 
-`Python` `FastAPI` `Tree-sitter` `NetworkX` `Next.js` `TypeScript`
+### 🧑‍💻 A little context
 
-### [ModelXray](https://github.com/Asmit-Rai-04/modelxray)
+I'm a **B.Tech Computer Science student at SRM Institute of Science and Technology**. I build things in Python and TypeScript, mostly around developer tools and machine learning.
 
-A closer look at where tabular classifiers go wrong. Investigate weak spots and compare model versions through reproducible runs.
+Right now, I'm down two rabbit holes: **how codebases fit together** and **where ML models go wrong**. That's where the projects below come in. DSA practice fills some of the gaps between coursework and building.
 
-`Python` `scikit-learn` `pandas` `FastAPI` `Next.js` `TypeScript`
+## 🧪 The workbench
 
-### [Traffic light colour detection](https://github.com/Asmit-Rai-04/traffic-light-detection-)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-An early computer vision experiment using webcam input, HSV colour masks, and bounding boxes to detect colours.
+<h3><a href="https://github.com/Asmit-Rai-04/RepoLens">🔎 RepoLens</a></h3>
+<p><strong>Codebases, untangled.</strong></p>
+<p>🧭 Architecture maps<br>🔗 Dependency graphs<br>🔁 Cycle detection</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Next.js</code></p>
+<a href="https://github.com/Asmit-Rai-04/RepoLens"><img src="https://img.shields.io/badge/Code_%E2%86%97-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore the RepoLens repository"></a>
 
-`Python` `OpenCV` `NumPy`
+</td>
+<td width="50%" valign="top">
 
-## Tools I use
+<h3><a href="https://github.com/Asmit-Rai-04/modelxray">🔬 ModelXray</a></h3>
+<p><strong>Past the accuracy score.</strong></p>
+<p>🎯 Failure discovery<br>⚖️ Model comparisons<br>🧪 Repeatable runs</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Next.js</code></p>
+<a href="https://github.com/Asmit-Rai-04/modelxray"><img src="https://img.shields.io/badge/Code_%E2%86%97-0891B2?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore the ModelXray repository"></a>
 
-| Area | Tools |
-| :--- | :--- |
-| Languages | Python, TypeScript, JavaScript |
-| Web & APIs | React, Next.js, FastAPI |
-| Analysis & ML | pandas, NumPy, scikit-learn, OpenCV |
-| Code & graphs | Git, Tree-sitter, NetworkX |
+</td>
+</tr>
+</table>
 
-## What I'm working on
+<details>
+<summary><strong>🚦 An earlier experiment</strong></summary>
 
-- Making codebase structure easier to explore in **RepoLens**.
-- Understanding model failures and comparisons through **ModelXray**.
-- Keeping up with **data structures and algorithms** alongside my coursework.
+**[Traffic light colour detection](https://github.com/Asmit-Rai-04/traffic-light-detection-)** — webcam input, HSV colour masks, and bounding boxes. A small OpenCV experiment with `Python`, `OpenCV`, and `NumPy`.
 
-## Contribution snake
+</details>
 
-One part of this profile I had to keep. A snake working its way through my GitHub contributions, refreshed daily.
+<p align="center"><a href="https://github.com/Asmit-Rai-04?tab=repositories"><strong>Browse all my public repos →</strong></a></p>
+
+## 🛠️ The toolkit
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,fastapi,git&amp;theme=dark&amp;perline=7" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, and Git" width="420">
+</p>
+
+<p align="center"><code>pandas</code> · <code>NumPy</code> · <code>scikit-learn</code> · <code>OpenCV</code> · <code>Tree-sitter</code> · <code>NetworkX</code></p>
+
+## ⚡ The GitHub bit
+
+<p align="center">
+  <a href="https://github.com/Asmit-Rai-04">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats.svg">
+      <img src="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats.svg" alt="Asmit's public GitHub statistics, refreshed daily" width="440" align="top">
+    </picture>
+  </a>
+  <a href="https://github.com/Asmit-Rai-04?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages.svg">
+      <img src="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages.svg" alt="Languages across Asmit's public repositories, refreshed daily" width="360" align="top">
+    </picture>
+  </a>
+</p>
+
+## 🐍 Feed the snake
+
+Commits go in. Snake comes out.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/output/github-contribution-grid-snake-dark.svg">
@@ -57,4 +95,4 @@ One part of this profile I had to keep. A snake working its way through my GitHu
 
 ---
 
-If you're working on developer tools or ML projects, I'd be happy to compare notes or work on something together. [Get in touch](mailto:ashmitrai12@gmail.com).
+<p align="center"><strong>Got an interesting repo or an ML problem to pick apart?</strong><br><a href="mailto:ashmitrai12@gmail.com">Let's talk.</a></p>

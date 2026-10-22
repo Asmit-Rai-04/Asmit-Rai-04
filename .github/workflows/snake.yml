@@ -1,4 +1,4 @@
-name: Update contribution snake
+name: Refresh profile visuals
 
 on:
   schedule:
@@ -38,5 +38,63 @@ jobs:
           target_branch: output
           build_dir: dist
           commit_message: "Update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  stats:
+    name: Generate and publish stats cards
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate light stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=default&title_color=7c3aed&icon_color=0891b2&hide_border=true&card_width=440
+          path: dist-stats/stats.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate light languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&title_color=7c3aed&hide_border=true&card_width=360
+          path: dist-stats/languages.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&card_width=440
+          path: dist-stats/stats-dark.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&card_width=360
+          path: dist-stats/languages-dark.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Publish only after every card succeeds; keep the last good snapshot on failure.
+      - name: Publish stats to profile-stats branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: profile-stats
+          build_dir: dist-stats
+          commit_message: "Update profile stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
