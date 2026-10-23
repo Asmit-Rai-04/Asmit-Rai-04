@@ -2,7 +2,7 @@
 
 # Hey, I'm Asmit 👾
 
-**Python + TypeScript · side quests in code**
+**It worked once. I'm counting that.**
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=1&amp;pause=2400&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Currently+building+RepoLens+%2B+ModelXray;Taking+things+apart.+Figuring+things+out.;One+more+idea.+One+more+repo." alt="Currently building RepoLens and ModelXray. Taking things apart. Figuring things out. One more idea. One more repo." width="720">
