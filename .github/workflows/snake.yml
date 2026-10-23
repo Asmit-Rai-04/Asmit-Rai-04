@@ -1,42 +1,100 @@
-name: Generate Snake Animation
+name: Refresh profile visuals
 
 on:
-  # Run automatically every 24 hours
   schedule:
-    - cron: "0 0 * * *"
-  
-  # Allows manual workflow run
+    # Daily at 01:17 UTC; avoid the busiest start-of-hour queue.
+    - cron: "17 1 * * *"
   workflow_dispatch:
-  
-  # Run on every push to main branch
   push:
     branches:
       - main
 
+permissions: {}
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
 jobs:
   generate:
+    name: Generate and publish SVGs
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # Generate snake animation
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      # Push the generated files to the output branch
-      - name: Push github-contribution-grid-snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Publish snakes to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  stats:
+    name: Generate and publish stats cards
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate light stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=default&title_color=7c3aed&icon_color=0891b2&hide_border=true&card_width=440&disable_animations=true
+          path: dist-stats/stats.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate light languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&title_color=7c3aed&hide_border=true&card_width=360&disable_animations=true
+          path: dist-stats/languages.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&card_width=440&disable_animations=true
+          path: dist-stats/stats-dark.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&card_width=360&disable_animations=true
+          path: dist-stats/languages-dark.svg
+          core_version: "2.2.0"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Publish only after every card succeeds; keep the last good snapshot on failure.
+      - name: Publish stats to profile-stats branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: profile-stats
+          build_dir: dist-stats
+          commit_message: "Update profile stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

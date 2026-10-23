@@ -1,172 +1,100 @@
 <div align="center">
-  
-# 👨‍💻 Hi there, I'm Asmit Rai! 
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=BTech+CSE+Student+%40+SRMIST;Full+Stack+Developer;Competitive+Programmer;Open+Source+Enthusiast;Always+Learning+New+Things!" alt="Typing SVG" />
+# Hey, I'm Asmit 👾
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+**It worked once. I'm counting that.**
 
-</div>
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=1&amp;pause=2400&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Currently+building+RepoLens+%2B+ModelXray;Taking+things+apart.+Figuring+things+out.;One+more+idea.+One+more+repo." alt="Currently building RepoLens and ModelXray. Taking things apart. Figuring things out. One more idea. One more repo." width="720">
+</p>
 
-## 🎓 About Me
-
-```python
-class AsmitRai:
-    def __init__(self):
-        self.name = "Asmit Rai"
-        self.college = "SRM Institute of Science & Technology"
-        self.degree = "B.Tech in Computer Science & Engineering"
-        self.role = "Student Developer"
-        self.interests = ["Full Stack Development", "DSA", "AI/ML", "Cloud Computing"]
-        self.current_focus = "Building scalable applications"
-        
-    def say_hi(self):
-        print("Thanks for dropping by! Let's connect and build something amazing together!")
-
-me = AsmitRai()
-me.say_hi()
-```
-
-<div align="center">
-
-### 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asmit-rai)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Asmit-Rai-04)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asmitrai@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://asmitrai.dev)
-
-![Profile Views](https://komarev.com/ghpvc/?username=asmit-rai-04&color=blueviolet&style=for-the-badge)
+<p>
+<a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/My_site-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="My website"></a>
+<a href="https://www.linkedin.com/in/asmit-rai/"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:ashmitrai12@gmail.com"><img src="https://img.shields.io/badge/Say_hello-DB2777?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Asmit"></a>
+</p>
 
 </div>
 
 ---
 
-## 💻 Tech Stack
+### 🧑‍💻 What I'm up to
 
-<div align="center">
+Mostly **Python and TypeScript**. Making codebases less mysterious and model failures easier to spot.
 
-### Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Currently tinkering with **RepoLens** and **ModelXray**. Plenty left to figure out.
 
-### Web Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+## 🧪 Side quests
 
-### Databases & Tools
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<table width="100%">
+<tr>
+<td width="420" valign="top">
 
-</div>
+<h3><a href="https://github.com/Asmit-Rai-04/RepoLens">🔎 RepoLens</a></h3>
+<p><strong>Codebases, untangled.</strong></p>
+<p>🧭 Architecture maps<br>🔗 Dependency graphs<br>🔁 Cycle detection</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Next.js</code></p>
+<a href="https://github.com/Asmit-Rai-04/RepoLens"><img src="https://img.shields.io/badge/Code_%E2%86%97-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore the RepoLens repository"></a>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</td>
+<td width="420" valign="top">
 
----
+<h3><a href="https://github.com/Asmit-Rai-04/modelxray">🔬 ModelXray</a></h3>
+<p><strong>Past the accuracy score.</strong></p>
+<p>🎯 Failure discovery<br>⚖️ Model comparisons<br>🧪 Repeatable runs</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Next.js</code></p>
+<a href="https://github.com/Asmit-Rai-04/modelxray"><img src="https://img.shields.io/badge/Code_%E2%86%97-0891B2?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore the ModelXray repository"></a>
 
-## 📊 GitHub Statistics
+</td>
+</tr>
+</table>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=asmit-rai-04&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Asmit's GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=asmit-rai-04&theme=radical&hide_border=true&background=0D1117" alt="Asmit's GitHub Streak" />
-</div>
+<details>
+<summary><strong>🚦 An earlier experiment</strong></summary>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asmit-rai-04&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=asmit-rai-04&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
-</div>
+**[Traffic light colour detection](https://github.com/Asmit-Rai-04/traffic-light-detection-)** — webcam input, HSV colour masks, and bounding boxes. A small OpenCV experiment with `Python`, `OpenCV`, and `NumPy`.
 
----
+</details>
 
-## 🏆 GitHub Trophies
+<p align="center"><a href="https://github.com/Asmit-Rai-04?tab=repositories"><strong>Browse all my public repos →</strong></a></p>
 
-<div align="center">
-  
-![](https://github-profile-trophy.vercel.app/?username=asmit-rai-04&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)
+## 🛠️ Stuff I reach for
 
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,fastapi,git&amp;theme=dark&amp;perline=7" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, and Git" width="420">
+</p>
 
----
+<p align="center"><code>pandas</code> · <code>NumPy</code> · <code>scikit-learn</code> · <code>OpenCV</code> · <code>Tree-sitter</code> · <code>NetworkX</code></p>
 
-## 🐍 Contribution Snake
+## ⚡ Meanwhile, on GitHub
 
-<div align="center">
-  
-![Snake animation](https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <a href="https://github.com/Asmit-Rai-04">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats.svg">
+      <img src="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/stats.svg" alt="Asmit's public GitHub statistics, refreshed daily" width="440" align="top">
+    </picture>
+  </a>
+  <a href="https://github.com/Asmit-Rai-04?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages.svg">
+      <img src="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/profile-stats/languages.svg" alt="Languages across Asmit's public repositories, refreshed daily" width="360" align="top">
+    </picture>
+  </a>
+</p>
 
-</div>
+## 🐍 Feed the snake
 
----
+Commits go in. Snake comes out.
 
-## 💡 Random Dev Quote
-
-<div align="center">
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
-## 🎯 Current Focus
-
-<div align="center">
-
-🔭 Currently working on: **Building Full Stack Web Applications**
-
-🌱 Learning: **Cloud Computing & DevOps**
-
-👯 Looking to collaborate on: **Open Source Projects**
-
-💬 Ask me about: **DSA, Web Development, Competitive Programming**
-
-⚡ Fun fact: **I debug with print statements and I'm not ashamed!** 😄
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Asmit-Rai-04/Asmit-Rai-04/output/github-contribution-grid-snake.svg" alt="Animated snake eating the squares in Asmit Rai's GitHub contribution calendar" width="100%">
+</picture>
 
 ---
 
-## 📈 Activity Graph
-
-<div align="center">
-
-[![Asmit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=asmit-rai-04&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## 🎨 Featured Projects
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=asmit-rai-04&repo=repo-name&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/asmit-rai-04/repo-name)
-
-</div>
-
----
-
-<div align="center">
-
-### 💖 Thanks for visiting! 
-
-<img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="200">
-
-### Show some ❤️ by starring some repositories!
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-
-</div>
+<p align="center"><strong>Found something cool? Send it my way.</strong><br><a href="mailto:ashmitrai12@gmail.com">Say hey.</a></p>
