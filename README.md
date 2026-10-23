@@ -8,6 +8,7 @@
 
 <p>
 <a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/My_site-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="My website"></a>
+<a href="https://www.linkedin.com/in/asmit-rai/"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:ashmitrai12@gmail.com"><img src="https://img.shields.io/badge/Say_hello-DB2777?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Asmit"></a>
 </p>
 
@@ -17,9 +18,9 @@
 
 ### 🧑‍💻 What I'm up to
 
-I build things in **Python and TypeScript**. Usually developer tools, sometimes machine learning, always something to figure out.
+Mostly **Python and TypeScript**. Making codebases less mysterious and model failures easier to spot.
 
-Currently tinkering with **RepoLens** and **ModelXray**, with some **DSA** in the mix.
+Currently tinkering with **RepoLens** and **ModelXray**. Plenty left to figure out.
 
 ## 🧪 Side quests
 
