@@ -4,7 +4,9 @@
 
 **Python + TypeScript · side quests in code**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Currently+building+RepoLens+%2B+ModelXray;Taking+things+apart.+Figuring+things+out.;One+more+idea.+One+more+repo." alt="Currently building RepoLens and ModelXray. Taking things apart. Figuring things out. One more idea. One more repo." width="720">
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=1&amp;pause=2400&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Currently+building+RepoLens+%2B+ModelXray;Taking+things+apart.+Figuring+things+out.;One+more+idea.+One+more+repo." alt="Currently building RepoLens and ModelXray. Taking things apart. Figuring things out. One more idea. One more repo." width="720">
+</p>
 
 <p>
 <a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/My_site-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="My website"></a>
