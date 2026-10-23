@@ -2,13 +2,12 @@
 
 # Hey, I'm Asmit 👾
 
-**CSE @ SRMIST · Python + TypeScript · Always another rabbit hole**
+**Python + TypeScript · side quests in code**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Codebases.+Models.+Useful+tools.;Currently+building+RepoLens+%2B+ModelXray;Learning+by+taking+things+apart." alt="Codebases. Models. Useful tools. Currently building RepoLens and ModelXray. Learning by taking things apart." width="720">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=52&amp;lines=Currently+building+RepoLens+%2B+ModelXray;Taking+things+apart.+Figuring+things+out.;One+more+idea.+One+more+repo." alt="Currently building RepoLens and ModelXray. Taking things apart. Figuring things out. One more idea. One more repo." width="720">
 
 <p>
-<a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="Portfolio"></a>
-<a href="https://www.linkedin.com/in/asmit-rai/"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+<a href="https://asmitrai.is-a.dev/"><img src="https://img.shields.io/badge/My_site-7C3AED?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="My website"></a>
 <a href="mailto:ashmitrai12@gmail.com"><img src="https://img.shields.io/badge/Say_hello-DB2777?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Asmit"></a>
 </p>
 
@@ -16,13 +15,13 @@
 
 ---
 
-### 🧑‍💻 A little context
+### 🧑‍💻 What I'm up to
 
-I'm a **B.Tech Computer Science student at SRM Institute of Science and Technology**. I build things in Python and TypeScript, mostly around developer tools and machine learning.
+I build things in **Python and TypeScript**. Usually developer tools, sometimes machine learning, always something to figure out.
 
-Right now, I'm down two rabbit holes: **how codebases fit together** and **where ML models go wrong**. That's where the projects below come in. DSA practice fills some of the gaps between coursework and building.
+Currently tinkering with **RepoLens** and **ModelXray**, with some **DSA** in the mix.
 
-## 🧪 The workbench
+## 🧪 Side quests
 
 <table width="100%">
 <tr>
@@ -56,7 +55,7 @@ Right now, I'm down two rabbit holes: **how codebases fit together** and **where
 
 <p align="center"><a href="https://github.com/Asmit-Rai-04?tab=repositories"><strong>Browse all my public repos →</strong></a></p>
 
-## 🛠️ The toolkit
+## 🛠️ Stuff I reach for
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,fastapi,git&amp;theme=dark&amp;perline=7" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, and Git" width="420">
@@ -64,7 +63,7 @@ Right now, I'm down two rabbit holes: **how codebases fit together** and **where
 
 <p align="center"><code>pandas</code> · <code>NumPy</code> · <code>scikit-learn</code> · <code>OpenCV</code> · <code>Tree-sitter</code> · <code>NetworkX</code></p>
 
-## ⚡ The GitHub bit
+## ⚡ Meanwhile, on GitHub
 
 <p align="center">
   <a href="https://github.com/Asmit-Rai-04">
@@ -95,4 +94,4 @@ Commits go in. Snake comes out.
 
 ---
 
-<p align="center"><strong>Got an interesting repo or an ML problem to pick apart?</strong><br><a href="mailto:ashmitrai12@gmail.com">Let's talk.</a></p>
+<p align="center"><strong>Found something cool? Send it my way.</strong><br><a href="mailto:ashmitrai12@gmail.com">Say hey.</a></p>
